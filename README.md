@@ -1,3 +1,4 @@
+HEAD
 # Nmaaste React
 
 DEV Dependencies -> are those dependencies which are required during the development phase not during the production phase 
@@ -68,3 +69,6 @@ Namaste Food -->
  */ -->
 
 //React Element => is an object => when we render it onto DOM it becomes an HTML
+
+# Namaste React
+c1ba4d53d043ca4042eede4506e865b7e9f72c30
