@@ -1,0 +1,72 @@
+In versioning (especially in npm, Node.js, and package.json), the caret (^) and tilde (~) symbols control which package versions can be installed automatically.
+
+Suppose a package version is:
+
+4.18.2
+
+Here:
+
+4 = Major version
+18 = Minor version
+2 = Patch version
+Caret (^)
+
+^4.18.2
+
+It means:
+
+Allow updates to the minor and patch versions.
+Do not allow updates to the major version.
+
+Examples:
+
+Available version	Will npm install it?
+4.18.3	✅ Yes
+4.19.0	✅ Yes
+4.20.5	✅ Yes
+5.0.0	❌ No
+
+Tilde (~)
+
+~4.18.2
+
+It means:
+
+Allow updates only to the patch version.
+Do not allow updates to the minor or major version.
+
+Examples:
+
+Available version	Will npm install it?
+4.18.3	✅ Yes
+4.18.5	✅ Yes
+4.19.0	❌ No
+5.0.0	❌ No
+
+# Functional Components in React -> functional components are just a normal javascript function and it just return a react element i.e. some piece of jsx
+
+# Component Composoition -> A component inside another component is called as component composition
+
+# note -> u can write javascript inside jsx
+
+# PROPS -> Known as properties , it is something that you can pass to a component ,suppose i want to pass data dynamically to some component so how we can do that i.e. we can pass it as a prop
+
+AS functional components are just a normal javascript function similary props are just normal argument to a function
+
+Passing a prop to a component is just like passing a argument to a function
+
+--> Passing props to a component 
+
+<RestaurantCard 
+resname ="Meghana Foods"
+cuisine ="Biryani ,North Indian, Asian"
+/>  ->this is known AS passing props to the components -> resname and cuisine
+
+
+//not using keys (not acceptable) <<<<< index as a key <<<<< unique id (best practice) <<
+
+Note -> To export multiple things from a file we can't export it using default , because default can be used only once , so to do mi=ultiple exports we have to use named exports
+
+Restaurant Card Burger Image ->https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPjW1YeOQHuQ5VdCq3IRXywlvLDpYcEPrZg7HITfwvFkGr7VCXEC3P03s&s
+
+Logo Burger Image -> "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIApU-IxgI1mowrFvD-MsdyespImislOCatdlZfyMHGuV0Dmj5BWD_3uc&s=10";
