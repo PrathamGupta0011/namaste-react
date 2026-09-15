@@ -1,3 +1,23 @@
+/**
+ * Header
+ * - logo
+ * - nav items 
+ * Body
+ * - Search
+ * - RestaurantContainer
+ *  - RestaurantCard
+ *    -image
+ *    -Name of the restro, star rating, cuisine, delivery time
+ * Footer
+ * - Copyright
+ * - address
+ * - contacts
+ * - links
+ */
+
+//React Element => is an object => when we render it onto DOM it becomes an HTML
+
+
 HEAD
 # Nmaaste React
 
