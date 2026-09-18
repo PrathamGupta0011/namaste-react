@@ -37,10 +37,10 @@ const Body =() => {
 
     
 
-    setListOfRestaurants(json.data.cards[4].card.card.gridElements.infoWithStyle.restaurants);
+    setListOfRestaurants(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
     
 
-    setFilteredRestaurant(json.data.cards[4].card.card.gridElements.infoWithStyle.restaurants);
+    setFilteredRestaurant(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
     };
 
 
